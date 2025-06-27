@@ -55,9 +55,16 @@ const projects = [
   {
     title: "SIRA's Regulatory Skills Self-Assessment Tool",
     link: "https://siracld.visualmetrics.io/",
-    technologies: ["Next js", "node js", "PostgreSQL", "OKTA", "typescript"],
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "OKTA",
+      "TypeScript",
+    ],
     description:
-      "Sira is the regulatory self Assessment tool. we have used Next js, node js, PostgreSQL, OKTA, typescript for buildind this website ,we have also used the tailwind css for the atratctive and responsive layout used okata for srtong authentication.",
+      "SIRA is a regulatory self-assessment platform developed to help organizations evaluate their compliance posture effectively. The application is built using React.js for the frontend and Node.js for the backend, with PostgreSQL as the primary database. We used TypeScript throughout the stack to ensure type safety and maintainable code. For user interface design, we implemented Tailwind CSS to create an attractive, modern, and fully responsive layout. To ensure secure user authentication and authorization, Okta was integrated, providing robust identity management and access control.",
     image: "images/sira.png",
   },
   // {

@@ -72,7 +72,7 @@ const ProjectsSection = () => {
         {/* Swiper Slider */}
         <Swiper
           ref={swiperRef}
-          className="lg:h-[38rem] w-full pb-10"
+          className="lg:h-[44rem] w-full pb-10"
           modules={[Autoplay]}
           spaceBetween={5}
           slidesPerView={1}
