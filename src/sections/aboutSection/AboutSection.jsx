@@ -15,7 +15,7 @@ const AboutSection = () => {
   }, []);
   return (
     <div>
-      <section className=" md:py-16 lg:h-screen overflow-hidden bg-gray-100 grid place-items-center py-11">
+      <section className=" md:py-16 lg:h-screen overflow-hidden grid place-items-center py-11 bg-about">
         <div className="container  lg:w-[80%] h-auto md:w-full lg:h-full mx-auto flex  overflow-hidden flex-col-reverse md:flex-row-reverse items-center justify-between gap-4">
           {/* Text Content */}
           <div className="md:w-1/2 text-center md:text-left">

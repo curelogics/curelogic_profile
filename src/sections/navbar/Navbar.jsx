@@ -62,7 +62,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="shadow-md px-6 w-full fixed top-0 left-0 z-40 transition-all duration-300 bg-white h-20">
+    <nav className="shadow-md px-6 w-full fixed top-0 left-0  transition-all duration-300 bg-white h-20 z-[999]">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center text-sm">

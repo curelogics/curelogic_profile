@@ -48,17 +48,17 @@ const FeatureSection = () => {
             </div>
             <div className="lg:w-1/2 w-full relative h-[350px] md:-mt-8 -mb-6 lg:h-[600px]">
               <a
-                className={`  flex justify-center items-center h-full w-full md:h-full  object-cover rounded-lg mx-auto  md:shadow-2xl ${
+                className={`  flex justify-center items-center h-full w-full md:h-full  object-cover rounded-lg mx-auto  md:shadow-xlxl ${
                   index % 2 === 0 ? " md:-translate-x-10" : " md:translate-x-10"
                 } h-2/3  m-auto  absolute`}
                 target="_blank"
                 href={project.link}
               >
                 <motion.img
-                  className={`w-full md:h-2/3 h-[300px] object-cover rounded-lg mx-auto  md:shadow-2xl ${
+                  className={`w-full md:h-2/3 h-[300px] object-cover rounded-lg   md:shadow-2xl  ${
                     index % 2 === 0
-                      ? " md:-translate-x-10"
-                      : " md:translate-x-10"
+                      ? " md:-translate-x-10 md:ml-40"
+                      : " md:translate-x-10 md:mr-40"
                   } h-2/3  m-auto  absolute`}
                   src={project.image}
                   alt={project.title}

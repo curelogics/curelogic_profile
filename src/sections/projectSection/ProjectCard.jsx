@@ -2,16 +2,21 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 const ProjectCard = ({ project }) => {
   return (
-    <div className=" md:h-full md:w-full  box-shadow m-4 mb-8 rounded-lg ">
-      <div className="  mx-auto  md:m-0 rounded-lg overflow-hidden my-4">
+    <div className=" md:h-full md:w-[95%] box-shadow m-4 mb-8 rounded-lg ">
+      <div className="  mx-auto flex flex-col  md:m-0 rounded-lg overflow-hidden my-4">
         {/* Project Image */}
-        <a href={project.link} target="_blank">
-          <img
-            src={project.image}
-            alt={project.title}
-            className="w-full h-full object-cover rounded-lg   "
-          />
-        </a>
+        <div
+          className="h-64 
+        "
+        >
+          <a href={project.link} target="_blank" className="h-full">
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full rounded-lg   "
+            />
+          </a>
+        </div>
         {/* Project Details */}
         <div className="w-full p-4 box-shaow">
           <div className="flex justify-between items-center mb-4">

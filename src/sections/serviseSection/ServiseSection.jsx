@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 const ServiceSection = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -65,10 +66,12 @@ const ServiceSection = () => {
         <div className="relative h-[20rem] w-full md:w-1/2 flex justify-center items-center">
           <div className="md:py-[2px] px-[2px] md:bg-gradient-to-r from-red-500 to-blue-500 bg-gradient-to-b from-red-500 to-blue-500 md:w-full h-full md:h-0 z-10"></div>
           <div className="w-20 h-20 py-0 bg-gray-100  border border-red-500 rounded-full z-20 absolute left-1/2 transform -translate-x-1/2 flex justify-center items-center">
-            <img
-              src="https://curelogics.org/wp-content/uploads/2024/08/Group-14040.png"
+            <Image
+              width={20}
+              height={20}
+              src="/images/service_icon.png"
               alt=""
-              className="w-[100%] h-[100%] rounded-full bg-transparent"
+              className=" rounded-full bg-transparent"
             />
           </div>
           <div className="w-full h-10 absolute flex justify-center items-center z-0">

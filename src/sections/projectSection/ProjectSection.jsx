@@ -29,17 +29,17 @@ const ProjectsSection = () => {
   return (
     <section className="relative py-16 flex flex-col lg:flex-row items-center justify-end bg-white px-4">
       {/* Left Animated Gears */}
-      <div className="z-20 absolute md:-left-16 -left-9 md:top-[27.5%] top-[50%] rotate-[15deg]">
+      {/* <div className="z-20 absolute md:-left-16 -left-9 md:top-[27.5%] top-[50%] rotate-[15deg]">
         <DotLottieReact
-          className="md:w-96 md:h-96 w-40 h-40"
+          className="md:w-96 md:h-96 w-40 h-40 hidden md:block"
           src="https://lottie.host/906ed5c3-5320-46da-8ac4-e16ea5554b5f/Z8Sahwhs21.lottie"
           loop
           autoplay
         />
-      </div>
+      </div> */}
 
       {/* Projects Section */}
-      <div className="container md:w-[90%] relative">
+      <div className="container md:w-[80%] relative mx-auto">
         {/* Section Heading */}
         <div className="mb-12">
           <div className="text-center lg:text-start">
@@ -72,9 +72,9 @@ const ProjectsSection = () => {
         {/* Swiper Slider */}
         <Swiper
           ref={swiperRef}
-          className="lg:h-[44rem] w-full pb-10"
+          className="lg:h-[38rem] w-full pb-10"
           modules={[Autoplay]}
-          spaceBetween={30}
+          spaceBetween={5}
           slidesPerView={1}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
           breakpoints={{

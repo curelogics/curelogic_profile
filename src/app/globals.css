@@ -136,6 +136,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.bg-about {
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* FallingStars.css */
 @keyframes fall {
   0% {

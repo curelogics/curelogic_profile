@@ -53,21 +53,21 @@ const projects = [
     image: "	https://usmankhalid.me/portfolio/cyara.png",
   },
   {
-    title: "Fujairah HR – UAE Government",
-    link: "https://fuj-hr.ae/home",
-    technologies: ["Vue.js", "Django", "PostgreSQL", "Docker"],
+    title: "SIRA's Regulatory Skills Self-Assessment Tool",
+    link: "https://siracld.visualmetrics.io/",
+    technologies: ["Next js", "node js", "PostgreSQL", "OKTA", "typescript"],
     description:
-      "Developed Fujairah HR project from scratch using React, MongoDB, Node.js, Express.js, and Websockets within MERN technologies. Implemented full-stack development, covering both frontend and backend. Enabled real-time communication with Websockets to enhance user experience and system responsiveness. Optimized data storage and retrieval functionalities using MongoDB for better performance. Implemented secure authentication and authorization mechanisms to protect sensitive government data. Collaborated with stakeholders to ensure technical solutions aligned with business objectives and user requirements. Maintained high code quality through rigorous testing and adherence to best practices",
-    image: "	https://usmankhalid.me/portfolio/fujairah.png",
+      "Sira is the regulatory self Assessment tool. we have used Next js, node js, PostgreSQL, OKTA, typescript for buildind this website ,we have also used the tailwind css for the atratctive and responsive layout used okata for srtong authentication.",
+    image: "images/sira.png",
   },
-  {
-    title: "GotStuck Mobile Application (Recovery / Car Transportation)",
-    link: "https://gotstuck.co.uk/applaunch/",
-    technologies: ["Angular", "Spring Boot", "MySQL", "Kubernetes"],
-    description:
-      "Developed the TestRTC project utilizing Express.js with Typescript, React.js, MongoDB, WebRTC, AWS, and Lambda Functions. Created a robust backend using Express.js, ensuring type safety and efficient server-side operations. Implemented a dynamic frontend with React.js to provide a seamless user interface and interactive user experience. Utilized MongoDB for efficient, scalable database management, handling large volumes of real-time data.",
-    image: "https://usmankhalid.me/portfolio/got.png",
-  },
+  // {
+  //   title: "GotStuck Mobile Application (Recovery / Car Transportation)",
+  //   link: "https://gotstuck.co.uk/applaunch/",
+  //   technologies: ["Angular", "Spring Boot", "MySQL", "Kubernetes"],
+  //   description:
+  //     "Developed the TestRTC project utilizing Express.js with Typescript, React.js, MongoDB, WebRTC, AWS, and Lambda Functions. Created a robust backend using Express.js, ensuring type safety and efficient server-side operations. Implemented a dynamic frontend with React.js to provide a seamless user interface and interactive user experience. Utilized MongoDB for efficient, scalable database management, handling large volumes of real-time data.",
+  //   image: "https://usmankhalid.me/portfolio/got.png",
+  // },
 ];
 
 export default projects;
