@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <div>
           <Navbar />
-        </div>
+        </div>  
         {children}
       </body>
     </html>
